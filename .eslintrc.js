@@ -4,6 +4,9 @@ module.exports = {
     'plugin:react/recommended',
   ],
   rules: {
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [0, "error", "windows"],
     // React
     'react/prop-types': 0,
     'react/self-closing-comp': 0,
